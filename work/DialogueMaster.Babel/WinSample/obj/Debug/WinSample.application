@@ -3,15 +3,18 @@
   <assemblyIdentity name="WinSample.application" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="WinSample" asmv2:product="WinSample" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="WinSample.exe.manifest" size="5159">
+    <dependentAssembly dependencyType="install" codebase="WinSample.exe.manifest" size="4125">
       <assemblyIdentity name="WinSample.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>xe5CIMZ2c70TnCtnS7ztCgECuoc=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FMiOqejlRVwGBsksoCKyOiKU+00x1/MDAxsRwCjlevI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

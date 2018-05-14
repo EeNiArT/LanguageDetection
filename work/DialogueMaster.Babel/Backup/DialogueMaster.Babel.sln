@@ -1,11 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E55BC23F-236A-4CBE-BAC4-AE7106B4D29F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogueMaster.Babel", "DialogueMaster.Babel.csproj", "{3825704F-160A-4EE1-928C-A980D6C96224}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test\Test.csproj", "{53198C48-56A0-49E8-8F3A-8A1EEB188AE6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E55BC23F-236A-4CBE-BAC4-AE7106B4D29F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogueMaster.Core.Interfaces", "..\DialogueMaster.Core.Interfaces\DialogueMaster.Core.Interfaces.csproj", "{DA3C4927-5041-4B1A-BB83-AE5343205D84}"
 EndProject

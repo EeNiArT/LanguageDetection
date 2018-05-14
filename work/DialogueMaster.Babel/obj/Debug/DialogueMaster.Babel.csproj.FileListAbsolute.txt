@@ -14,3 +14,11 @@ F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.Installer.resources
 F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.csproj.GenerateResource.Cache
 F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.dll
 F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.pdb
+D:\eeniart\Lengudete\work\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.dll.config
+D:\eeniart\Lengudete\work\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.dll
+D:\eeniart\Lengudete\work\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.pdb
+D:\eeniart\Lengudete\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.csprojResolveAssemblyReference.cache
+D:\eeniart\Lengudete\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.Installer.resources
+D:\eeniart\Lengudete\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.csproj.GenerateResource.Cache
+D:\eeniart\Lengudete\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.dll
+D:\eeniart\Lengudete\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.pdb
