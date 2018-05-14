@@ -1,21 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.IO;
 using DialogueMaster.Babel;
 using System.Globalization;
-using DialogueMaster.Babel.models;
+using System.Linq;
 
 namespace WinSample
 {
     public partial class DemoForm : Form
     {
         IBabelModel m_Model;
+
+        public string x1 = "AA,aando,ach,achmn,achne,achno,Akhti,Akhtii,ana,andhom,asg,awdi,awdii,axmn,ay,ayi,b,bach,Bacha,Bachahal,Bachahl,Bagha,baghi,baki,bali,ban,bante,barit,basah,bax,bazaf,bch,bchhal,bchi,bchitaman,beghit,Beghite,Bgha,bghayt,Bghina,bghit,bghite,bghitha,Bghitt,Bghut,Bghyt,bgit,bgito,bihoum,bik,bin,binatkom,binatna,binek,bini,bit,Bixahla,biya,bjoj,bjouj,bla,brayt,brit,brite,bsah,btaman,bzaaf,bzaf,bzf,bzzf,ch,chi,chkon,chkoun,chmen,chmn,chno,hhnou,chof,lia,chorout,chrihaaa,ctro,daba,dak,dar,dar,darou,dayr,dayra,dayrin,db,dert,dial,dik,dima,din,dir,dirou,diyal,drb,dyal,dyalha,dyalhoum,dyalo,dyl,ee,ela,endi,f,fach,fal,fash,fax,fe,fel,fi,fia,fiha,fihom,fihoum,fik,fiki,fikoum,fina,fine,fiya,frzo,fx,fya,gh,Ghadi,ghda,ghi,ghir,go,l,h,had,hada,hadak,hadchi,hade,hadi,hado,hadou,hadxi,haja,hana,hanti,hat,hata,hatchi,heta,hia,hir,hit,hiya,hna,ho,hoa,houa,hta,hwa,hya,ido,ikon,il,ila,imta,ina,incha,inxa,iwa,iyah,ja,jawbo,jawboni,jawbt,jit,jwbo,kain,kam,kan,kanb4i,kanbda,kanbghi,kanhtajha,Kanmout,kant,kayen,kayena,kayenin,kayn,kayna,khas,khasni,khass,khdit,Khodi,khoti,khouti,khouya,khoya,khsni,khti,kif,kifach,kifax,kima,kin,kindir,kohom,kolchi,kolna,kolo,kolona,kon,kont,konx,koulna,kount,kter,l,lah,lah,lakom,leya,lgharad,lhal,li,lia,lih,liha,lihoum,lik,likom,lina,liya,lkhot,lok,lya,Lyom,Lyoma,m,M3ach,M3ax,machi,makaynch,malk,man,mane,mara,matfoutch,matx,maxi,mazal,mazyan,mcha,mchat,Mchhal,mchi,mchit,mchiw,memkin,men,men rda, mera, Mezyana, mhtj, mi, mjoud, mli, mlk, mlyon, mmkin, mn, momki, momkin, momkin l,monasib,monassib,n,na,naaraf,nacherii,naftah,nakhod,namchi,namchiw n, nari, narii, Nbaliw, nbdlha, Nchri, nchriha, ndir, ndiroha, nhar, nkhdem, nkhoud, nkono, nkri, nsawlak, nshofo, nshriha, nstafd, nta, ntia, Ntmana, Ntmnaw, ntolo, ntoma, ntouma, ntsnaw, ntya, nxri, o, o3andi, o3endi, obghit, obrit, ochi, ochno, ofih, Ofin, ola, omhtaja, ouach, plize, Q, ra, rah, raha, rahna, rahoum, rani, rer, rir, rizo, salam, salame, salamo, salm, sbah, sbh, shi, shnou, shnu, sift, sifto, sir, siri, siro, sirou, slam, Slm, tafasil, tajwboni, taman, tdir, techri, tfawed, tfo, tjrabha, tkon, tkoun, tmchi, toma, touma, Twkeel, twkl, twkli, w, wa, waa, waaa, waahda, wach, wache, wahda, wahed, wal, walou, wana, wash, wax, wch, wehda, wel, wela, welad, whta, wla, wlad, Wlahila, wld, Wlit, Wlit,, Wlito, Wlitoo, wno, wnou, wntoma, wordsletters, wslat, wslt, xhal, xi, xini, xiwhda, xkon, xkoon, xno, xnu, xofo, xokran, xokrn, xrit, xukran, ya, yak, yaka, yakou, yalah, yallah, yamken, yamkn, yarab, yarabi, yla, ymken, ymkn, ymta, yslah, zwin, zwina,";
 
         public DemoForm()
         {
@@ -52,7 +49,7 @@ namespace WinSample
             cbLangCompare.Visible = false;
             //label8.Text = "Type our language text here";
 
-
+           
 
             List<string> entitylist = new List<string>();
 
@@ -63,9 +60,9 @@ namespace WinSample
             entitylist.Add(""); entitylist.Add(""); entitylist.Add(""); entitylist.Add(""); entitylist.Add("");
             entitylist.Add(""); entitylist.Add(""); entitylist.Add(""); entitylist.Add(""); entitylist.Add("");
 
-            var xlApp = new Microsoft.Office.Interop.Excel.Application();
-            var xlWorkBook = xlApp.Workbooks.Open(@"F:\work1\DialogueMaster.Babel\WinSample\file\entities.xlsx", 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
-            var xlWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
+            //var xlApp = new Microsoft.Office.Interop.Excel.Application();
+            //var xlWorkBook = xlApp.Workbooks.Open(@"F:\work1\DialogueMaster.Babel\WinSample\file\entities.xlsx", 0, true, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", false, false, 0, true, 1, 0);
+            //var xlWorkSheet = (Microsoft.Office.Interop.Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
 
 
         }
@@ -258,7 +255,7 @@ namespace WinSample
         private void button1_Click(object sender, EventArgs e)
         {
             string tea = this.tbSource.Text;
-
+            string obj2 = "";
             //Utility obj = new Utility();
             //var tyhv = obj.detecte(tea);
             //showresponce(tyhv);
@@ -269,13 +266,43 @@ namespace WinSample
             //string data = getBetween(tea, "my", "is");
             if (tea.Contains("2") || tea.Contains("3") || tea.Contains("4") || tea.Contains("5") || tea.Contains("7") || tea.Contains("9"))
             {
-                showresponce("Arabizi");
-                return;
+                obj2 = "yes";
             }
             else
             {
+                string[] string1 = x1.Split(',');
+                string[] string2 = tea.Split(' ');
+                string[] m = string1.Distinct().ToArray();
+                string[] n = string2.Distinct().ToArray();
+                string Test;
+                var results = m.Intersect(n, StringComparer.OrdinalIgnoreCase);
+                Test = String.Join(" ", results);
+                //return Test;
+                obj2 = Test;
+
+
+                //    if (string tea = AA || aando || ach || achmn || achne || achno || Akhti || Akhtii || ana || andhom || asg || awdi || awdii || axmn || ay ||ayi || b || bach || Bacha || Bachahal || Bachahl || Bagha || baghi || baki || bali || ban || bante || barit || basah || bax || bazaf || bch || bchhal || bchi || bchitaman || beghit || Beghite || Bgha || bghayt 
+                //                        || Bghina || bghit || bghite || bghith || a || Bghitt || Bghut || Bghyt || bgit || bgito || bihoum || bik || bin || binatkom || binatna || binek || bini || bit || Bixahla || biya || bjoj || bjouj || bla || brayt || brit || brite || bsah || btaman || bzaaf || bzaf || bzf || bzzf || ch || chi || chko || n || chkoun || chmen || chmn 
+                //                        || chno || hhnou || chof || lia || chorout || chrihaaa || ctro || daba || dak || dar || dar || darou || dayr || dayra || dayrin || db || dert || dial || dik || dima || din || dir || dirou || diyal || drb || dyal || dyalha || dyalho ||um || dyalo || dyl || ee || ela || endi || f || fach || fal || fash ||fax || fe || fel || fi || fia 
+                //                        || fiha || fihom || fihoum || fik || fiki || fikoum || fina || fine || fiya || frzo || fx || fya || gh || Ghadi || ghda || ghi || ghir || go || l || h || had || hada || hadak || ha || dchi || hade || hadi || hado || hadou || hadxi || haja || hana || hanti || hat || hata || hatchi || heta || hia || hir || hit || hiya || hna || ho 
+                //                        || hoa || houa || hta || hwa || hya || ido||ikon || il || ila || imta || ina || incha || inxa || iwa || iyah || ja || jawbo ||jawboni || jawbt || jit || jwbo || kain || kam || kan || kanb4i || kanbda || kanbghi || kanhtajha || Kanmout || kant || kayen || kayena || kayenin || kayn || kayna || khas || khasni || khass || khdit || Khodi 
+                //                        || khoti || khouti || khouya || kho || ya || khsni || khti || kif || kifach || kifax || kima || kin || kindir || kohom || kolchi || kolna || kolo || kolona || kon || kont || konx || koulna || kount || kter || l || lah || lah || lakom || leya || lgharad || lhal || li || lia|| lih || liha || lihoum ||lik || likom || lina || liya || lkhot 
+                //                        || lok || lya || Lyom || Lyoma || m || M3ach || M3ax || machi || makaynch || malk || man || mane || mara || matfoutch || matx || maxi || mazal || mazyan || mcha || mchat || Mchhal || mchi || mchit || mchiw || memkin || men|| men rda || mera || Mezyana || mhtj || mi || mjoud || mli || mlk || mlyon || mmkin || mn || momki || momkin 
+                //                        || momkin l || monasib || monassib || n || na || naaraf || nacherii || naftah || nakhod || namchi || namchiw ||n || nari || narii || Nbaliw || nbdlha || Nchri || nchriha || ndir || ndiroha || nhar || nkhdem || nkhoud || nkono || nkri || nsawlak || nshofo || nshriha || nstafd || nta || ntia || Ntmana || Ntmnaw || ntolo || ntoma 
+                //                        || ntouma || ntsnaw || ntya || nxri || o || o3andi || o3endi || obghit || obrit || ochi || ochno || ofih || Ofin || ola || omhtaja || ouach || plize || Q || ra || rah || raha || rahna || rahoum || rani || rer || rir || rizo || salam || salame || salamo || salm || sbah || sbh || shi || shno || u || shnu || sift || sifto || sir || siri 
+                //                        || siro || sirou || slam || Slm || tafasil || tajwboni || taman || tdir || techri || tfawed || tfo || tjrabha || tkon || tkoun || tmchi || toma || touma || Twkeel || twkl || twkli || w || wa || waa || waaa || waahda |||| wach || wache || wahda || wahed || wal || walou || wana || wash || wax || wch || wehda || wel || wela || welad 
+                //                        || whta || wla || wlad || Wlahila || wld || Wlit || Wlit || Wlito || Wlitoo || wno || wnou || wntoma || wordsletters || wslat || wslt || xhal || xi || xini || xiwhda || xkon || xkoon || xno || xnu || xofo || xokran || xokrn || xrit || xukran || ya || yak || yaka||yakou || yalah || yallah || yamken || yamkn || yarab || yarabi || yla || ymken || ymkn || ymta || yslah || zwin || zwina)
+
 
             }
+            
+
+            if(obj2 != null && obj2 != "")
+            {
+                showresponce("Arabizi");
+                return;
+            }
+                
             
 
             this.cbLangCompare.SelectedIndex = -1;
