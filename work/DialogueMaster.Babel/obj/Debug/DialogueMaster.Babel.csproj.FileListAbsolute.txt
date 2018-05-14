@@ -1,0 +1,16 @@
+F:\work\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.dll.config
+F:\work\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.dll
+F:\work\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.pdb
+F:\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.Installer.resources
+F:\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.csproj.GenerateResource.Cache
+F:\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.dll
+F:\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.pdb
+F:\work\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.csprojResolveAssemblyReference.cache
+F:\work1\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.dll.config
+F:\work1\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.dll
+F:\work1\DialogueMaster.Babel\bin\Debug\DialogueMaster.Babel.pdb
+F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.csprojResolveAssemblyReference.cache
+F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.Installer.resources
+F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.csproj.GenerateResource.Cache
+F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.dll
+F:\work1\DialogueMaster.Babel\obj\Debug\DialogueMaster.Babel.pdb

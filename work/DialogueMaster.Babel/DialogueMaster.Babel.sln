@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E55BC23F-236A-4CBE-BAC4-AE7106B4D29F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogueMaster.Babel", "DialogueMaster.Babel.csproj", "{3825704F-160A-4EE1-928C-A980D6C96224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogueMaster.Core.Interfaces", "..\DialogueMaster.Core.Interfaces\DialogueMaster.Core.Interfaces.csproj", "{DA3C4927-5041-4B1A-BB83-AE5343205D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogueMaster.Collections", "..\DialogueMaster.Collections\DialogueMaster.Collections.csproj", "{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSample", "WinSample\WinSample.csproj", "{63D08917-B62B-4181-A7AF-2B4E194DEB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageDetectionApi", "..\LanguageDetectionApi\LanguageDetectionApi.csproj", "{07695837-D699-4DD2-A45B-35CD878DDFE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DialogueMaster.Net test|Any CPU = DialogueMaster.Net test|Any CPU
+		DialogueMaster.Net test|x64 = DialogueMaster.Net test|x64
+		DialogueMaster.Net test|x86 = DialogueMaster.Net test|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Debug|x64.ActiveCfg = Debug|x64
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Debug|x64.Build.0 = Debug|x64
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Debug|x86.ActiveCfg = Debug|x86
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Debug|x86.Build.0 = Debug|x86
+		{3825704F-160A-4EE1-928C-A980D6C96224}.DialogueMaster.Net test|Any CPU.ActiveCfg = DialogueMaster.Net test|Any CPU
+		{3825704F-160A-4EE1-928C-A980D6C96224}.DialogueMaster.Net test|Any CPU.Build.0 = DialogueMaster.Net test|Any CPU
+		{3825704F-160A-4EE1-928C-A980D6C96224}.DialogueMaster.Net test|x64.ActiveCfg = DialogueMaster.Net test|x64
+		{3825704F-160A-4EE1-928C-A980D6C96224}.DialogueMaster.Net test|x64.Build.0 = DialogueMaster.Net test|x64
+		{3825704F-160A-4EE1-928C-A980D6C96224}.DialogueMaster.Net test|x86.ActiveCfg = DialogueMaster.Net test|x86
+		{3825704F-160A-4EE1-928C-A980D6C96224}.DialogueMaster.Net test|x86.Build.0 = DialogueMaster.Net test|x86
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Release|x64.ActiveCfg = Release|x64
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Release|x64.Build.0 = Release|x64
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Release|x86.ActiveCfg = Release|x86
+		{3825704F-160A-4EE1-928C-A980D6C96224}.Release|x86.Build.0 = Release|x86
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Debug|x64.ActiveCfg = Debug|x64
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Debug|x64.Build.0 = Debug|x64
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Debug|x86.ActiveCfg = Debug|x86
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Debug|x86.Build.0 = Debug|x86
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.DialogueMaster.Net test|Any CPU.ActiveCfg = Debug|x64
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.DialogueMaster.Net test|x64.ActiveCfg = Debug|x64
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.DialogueMaster.Net test|x64.Build.0 = Debug|x64
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.DialogueMaster.Net test|x86.ActiveCfg = Debug|x64
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Release|x64.ActiveCfg = Release|x64
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Release|x64.Build.0 = Release|x64
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Release|x86.ActiveCfg = Release|x86
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84}.Release|x86.Build.0 = Release|x86
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Debug|x64.ActiveCfg = Debug|x64
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Debug|x64.Build.0 = Debug|x64
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Debug|x86.ActiveCfg = Debug|x86
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Debug|x86.Build.0 = Debug|x86
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.DialogueMaster.Net test|Any CPU.ActiveCfg = DialogueMaster.Net test|Any CPU
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.DialogueMaster.Net test|Any CPU.Build.0 = DialogueMaster.Net test|Any CPU
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.DialogueMaster.Net test|x64.ActiveCfg = DialogueMaster.Net test|x64
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.DialogueMaster.Net test|x64.Build.0 = DialogueMaster.Net test|x64
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.DialogueMaster.Net test|x86.ActiveCfg = DialogueMaster.Net test|x86
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.DialogueMaster.Net test|x86.Build.0 = DialogueMaster.Net test|x86
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Release|x64.ActiveCfg = Release|x64
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Release|x64.Build.0 = Release|x64
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Release|x86.ActiveCfg = Release|x86
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A}.Release|x86.Build.0 = Release|x86
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.DialogueMaster.Net test|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.DialogueMaster.Net test|Any CPU.Build.0 = Debug|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.DialogueMaster.Net test|x64.ActiveCfg = Debug|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.DialogueMaster.Net test|x86.ActiveCfg = Debug|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.Release|x64.ActiveCfg = Release|Any CPU
+		{63D08917-B62B-4181-A7AF-2B4E194DEB7C}.Release|x86.ActiveCfg = Release|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Debug|x64.Build.0 = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Debug|x86.Build.0 = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.DialogueMaster.Net test|Any CPU.ActiveCfg = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.DialogueMaster.Net test|Any CPU.Build.0 = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.DialogueMaster.Net test|x64.ActiveCfg = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.DialogueMaster.Net test|x64.Build.0 = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.DialogueMaster.Net test|x86.ActiveCfg = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.DialogueMaster.Net test|x86.Build.0 = Debug|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Release|x64.ActiveCfg = Release|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Release|x64.Build.0 = Release|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Release|x86.ActiveCfg = Release|Any CPU
+		{07695837-D699-4DD2-A45B-35CD878DDFE0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA3C4927-5041-4B1A-BB83-AE5343205D84} = {E55BC23F-236A-4CBE-BAC4-AE7106B4D29F}
+		{C3F87549-6E3E-4050-B6E7-4F0ECCD2E84A} = {E55BC23F-236A-4CBE-BAC4-AE7106B4D29F}
+	EndGlobalSection
+EndGlobal
